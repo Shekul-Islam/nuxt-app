@@ -1,9 +1,17 @@
+<script setup lang="ts">
+// import ProductTable from '../components/ProductTable.vue';
+</script>
 <template>
   <div>
-    <h1>Here is your playground</h1>
+
+    
+    <InterNationalReport/>
+    <sales-chart/>
+    
+    <ProductTable/>
+
   </div>
 </template>
 
-<script setup lang="ts"></script>
 
 <style scoped></style>

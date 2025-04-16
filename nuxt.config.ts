@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     transpile: ['devextreme-vue'],
   },
   modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
+  plugins: [
+    '~/plugins/devextreme.ts'
+  ],
   runtimeConfig: {
     public: {
       ...publicRuntimeConfig
@@ -20,3 +23,6 @@ export default defineNuxtConfig({
     ...privateRuntimeConfig,
   },
 });
+
+
+

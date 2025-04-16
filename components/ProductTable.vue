@@ -6,6 +6,7 @@
     { id: 1, name: 'iPhone', price: 999 },
     { id: 2, name: 'Samsung', price: 899 }
   ]
+
   </script>
 
 <template>
