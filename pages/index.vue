@@ -5,7 +5,7 @@
   <div>
 
     
-    <InterNationalReport/>
+    <InterNationalReport/> 
     <sales-chart/>
     
     <ProductTable/>
